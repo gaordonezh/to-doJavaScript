@@ -2,16 +2,19 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List JavaScript</title>
+    <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/task-done-flat.png" type="image/x-icon">
     <style media="screen">
     *{
       margin: 0;
       padding: 0;
       font-family: "montserrat", sans-serif;
       box-sizing: border-box;
+      color: white;
     }
     body{
-      background-image: linear-gradient(120deg, #487eb0,#fbc531);
+      background: linear-gradient(145deg, rgba(0,49,105,1) 17%, rgba(38,95,161,1) 56%, rgba(0,138,166,1) 100%);
       min-height: 100vh;
     }
     .container{
@@ -47,12 +50,17 @@
       background: rgba(0,0,0,0.5);
       color: #FFF;
     }
+    h1{
+      padding: 30px 0 0 0;
+      text-align: center
+    }
 
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
+    <h1>Todo List con JavaScript</h1>
     <div class="container">
       <input type="text" class="txtb" placeholder="Add a task" >
       <div class="notcomp">
